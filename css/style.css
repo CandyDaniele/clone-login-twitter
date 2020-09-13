@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+form {
+  width: 60%;
+  margin: 0 auto;
+}
+
+button {
+  background-color: rgb(29, 161, 242);
+  border-radius: 9999px;
+  border: none;
+  min-height: 49px;
+  min-width: 100%;
+  color: white;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+button:hover {
+  background-color: rgb(26, 140, 211);
+}
+
+h1{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+}
+
+img {
+  width: 65px;
+  height: 65px;
+}
+
+.imagem {
+  width: 65px;
+  margin: 0 auto;
+}
+
+input {
+  border: none;
+  background-color: transparent;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  height: 30px;
+}
+
+input:focus{
+  outline-style: none;
+  box-shadow: none;
+  border-color: transparent;
+}
+
+label {
+  color: rgb(101, 119, 134);  
+}
+
+.input-label{
+  background-color: rgb(245, 248, 250);
+  padding: 5px;
+  border-bottom: rgb(101, 119, 134) solid 2px;
+  margin: 30px 2px;
+}
+
+.input-label:focus-within{
+  border-bottom: rgb(29, 161, 242) solid 2px;
+}
+
+.input-label:focus-within label {
+  color:rgb(29, 161, 242);
+}
+
+.link{
+  width: 350px;
+  margin: 30px auto;
+}
+
+a{
+  text-decoration: none;
+  color:  rgb(29, 161, 242);
+  font-size: 18px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
